@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testautomation.Assessment">
+        <methods>
+          <include name="Submit"/>
+          <include name="QuitBrowser"/>
+          <include name="NewTab"/>
+          <include name="GenerateAlertBox"/>
+          <include name="GenerateConfirmBox"/>
+          <include name="SampleText"/>
+          <include name="Launch"/>
+          <include name="DropDown"/>
+          <include name="RadioButton"/>
+        </methods>
+      </class> <!-- testautomation.Assessment -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
